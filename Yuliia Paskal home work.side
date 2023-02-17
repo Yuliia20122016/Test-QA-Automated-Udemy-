@@ -1,0 +1,142 @@
+{
+  "id": "e54a8200-0bfd-4fd3-af45-b37b7e851429",
+  "version": "2.0",
+  "name": "Yuliia Paskal home work",
+  "url": "https://www.udemy.com/",
+  "tests": [{
+    "id": "d7190080-feeb-40e3-adbd-f76f088bfc73",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "260cee79-c034-4264-8e1f-a0d80ff23bdd",
+    "name": "Search for webdriver io",
+    "commands": [{
+      "id": "53886689-255b-49b3-b771-3d73ab03f5dc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67800f53-440c-4066-a466-6b69b48559e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ded0a5d-3d31-4923-9acf-7450c6df8ae6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5edeeec3-309c-4380-b171-3eda90106209",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "webdriver io"
+    }, {
+      "id": "edc527d5-d827-4249-8603-432ae7eec6bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-btn:nth-child(4)> .ud-icon",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d94748ec-5af3-4c6b-bca0-034a7dc59723",
+    "name": "Restricting  search results by rating",
+    "commands": [{
+      "id": "850c0b2c-0344-4314-bd0e-64eb0dc9b424",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/courses/search/?q=webdriver+io&sort=relevance&src=ukw",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "125d056d-d41e-4556-a610-806d38e71f9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-toggle-input-container:nth-child(1) > .ud-fake-toggle-radio",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d4d552e-8ca8-4601-84f1-b925ae6dc6b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-panel--heading--DCVJ_",
+      "targets": [
+        ["css=.filter-panel--heading--DCVJ_", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "15c03a90-c842-4c00-9621-9137ba9b1d92",
+    "name": "Sort by highest rate",
+    "commands": [{
+      "id": "b5c23556-1623-4f82-9b68-60ed707cd32b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/courses/search/?q=webdriver+io&sort=relevance&src=ukw",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "564698dd-669f-49f0-84cc-194358c8c3f3",
+      "comment": "",
+      "command": "click",
+      "target": "name=sort",
+      "targets": [
+        ["id=u103-form-group--5", "id"],
+        ["name=sort", "name"],
+        ["css=#u103-form-group--5", "css:finder"],
+        ["xpath=//select[@id='u103-form-group--5']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div/div/div/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cdd4875-a1cf-490c-981d-8f3a2036bf5b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.header--gap-auth-button--vj50D:nth-child(8) > .ud-btn", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div/div[2]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2Fcourses%2Fsearch%2F%3Fq%3Dwebdriver%2Bio%26sort%3Drelevance%26src%3Dukw')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8a89305-5ab5-466a-a4e2-93369965d3d8",
+      "comment": "",
+      "command": "click",
+      "target": "name=sort",
+      "targets": [
+        ["id=u28-form-group--13", "id"],
+        ["name=sort", "name"],
+        ["css=#u28-form-group--13", "css:finder"],
+        ["xpath=//select[@id='u28-form-group--13']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div/div/div/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a8b08d15-5eb7-4036-81f9-b35b9c3cdfc2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d7190080-feeb-40e3-adbd-f76f088bfc73"]
+  }],
+  "urls": ["https://www.udemy.com/"],
+  "plugins": []
+}
